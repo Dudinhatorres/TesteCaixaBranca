@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "java",
+        "name": "Main",
+        "request": "launch",
+        "mainClass": "login.src.Main",
+        "projectName": "TesteCaixaBranca",
+        "classpath": [
+          "C:/Users/55159/OneDrive - Centro Universitário Facens/TesteCaixaBranca/mysql-connector-java-8.0.22.jar"
+        ]
+      }
+    ]
+  }
+  
+    
+    
