@@ -1,0 +1,35 @@
+/**
+ * Classe User responsável por gerenciar a autenticação de usuários.
+ */
+public class User {
+
+    /**
+     * Método para conectar ao banco de dados MySQL.
+     *
+     * @return Objeto Connection conectado ao banco de dados.
+     */
+    public Connection conectarBD() {
+        // Seu código aqui
+    }
+
+    /**
+     * Nome do usuário autenticado.
+     */
+    public String nome = "";
+
+    /**
+     * Resultado da autenticação do usuário.
+     */
+    public boolean result = false;
+
+    /**
+     * Método para verificar se o usuário existe no banco de dados.
+     *
+     * @param login Login do usuário.
+     * @param senha Senha do usuário.
+     * @return True se o usuário for autenticado, false caso contrário.
+     */
+    public boolean verificarUsuario(String login, String senha) {
+        // Seu código aqui
+    }
+}
